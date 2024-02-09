@@ -1,0 +1,91 @@
+.add-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+    gap: 25px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+
+    background-color: #8d8dd8;
+}
+
+.adicionar {
+    width: 100%;
+    background-color: #8d8dd8;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.adicionar > h3 {
+    background-color: #8d8dd8;
+    font-size: 21px;
+}
+
+.div-form {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.ativo {display: flex;}
+
+.div-form > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    background-color: #d8d8f5;
+    border-radius: 8px;
+}
+
+.infos-form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    gap: 10px;
+    border-bottom: 1px solid rgba(51, 50, 50, 0.774);
+    background-color: #d8d8f5;
+}
+
+.infos-form > label {
+    font-size: 18px;
+   background-color: #d8d8f5;
+}
+.infos-form:nth-child(5) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    
+}
+
+.infos-form > button {
+    width: 125px;
+    height: 25px;
+    border-radius: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(83, 168, 253);
+} 
+
+.numpag {
+    width: 2rem;
+}
+
+@media only screen and (min-width: 500px) {
+    .div-form > form {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+   
+
+}
